@@ -15,8 +15,13 @@ function App() {
     if (muscles.length < 1){
       return
     }
-    let newWorkout = generateWorkout(poison, muscles, goal)
+
+    let newWorkout = generateWorkout({poison, muscles, goal})
+    // console.log(newWorkout)
     setWorkout(newWorkout)
+
+    //how to make scroll to the id "workout"
+    window.location.href = "#workout"
   }
  
  return (

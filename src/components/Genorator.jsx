@@ -53,7 +53,7 @@ function updateMuscles(muscleGroup) {
 }
 
   return (
-   <SectionWrapper header={"Generate your Workout."} title={["it\'s","Huge", "o\'Clock" ]}>
+   <SectionWrapper id={'generate'} header={"Generate your Workout."} title={["it\'s","Huge", "o\'Clock" ]}>
     
     
     <Header index={"01"} title={"Pick your poison"} 
@@ -106,7 +106,7 @@ function updateMuscles(muscleGroup) {
     description={"Select your Ultimate Objective"}/>
    
 
-   <div className='grid grid-cols-3  gap-4'>
+   <div className='grid grid-cols-1 sm:grid-cols-3  gap-4'>
 
    
    {Object.keys(SCHEMES).map((scheme, schemeIndex)=> {
