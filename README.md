@@ -1,3 +1,6 @@
+
+live- https://workoutpage.netlify.app/
+
 Custom Workout Planner App with React and Tailwind CSS
 This project involves developing a React application that utilizes Tailwind CSS to create a personalized workout plan. This app is designed to allow users to customize their daily workout routines according to their preferences and fitness goals.
 
