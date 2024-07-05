@@ -35,9 +35,6 @@ function App() {
       goal={goal}
       setGoal={setGoal}
       updateWorkout={updateWorkout}
-      
-      
-      
       />
       {workout && (<Workout workout={workout}/>)}
     </main>

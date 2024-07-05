@@ -24,8 +24,6 @@ const {muscles, setMuscles, poison, setPoison, goal, setGoal,updateWorkout} = pr
 const [showModal, setShowModal] = useState(false)
 
 
-// let showModal = false   changed it to a react stateful variable
-
 function toggleModal() {
   setShowModal (!showModal)
 }
