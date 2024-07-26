@@ -23,13 +23,9 @@ Utility-First Styling: Tailwind CSS allows for rapid development with utility cl
 
 Consistent Design: The use of a utility-first framework ensures consistent styling across different parts of the application.
 
-
-Personalization Features:
-Exercise Database: Users can choose from a comprehensive list of exercises categorized by muscle groups and difficulty levels.
-Interactive Experience:
-
 Technical Stack
 React: A JavaScript library for building user interfaces, enabling us to create a dynamic and responsive app.
 Tailwind CSS: A utility-first CSS framework that provides low-level utility classes for building custom designs directly in the markup.
+
 Conclusion
 This React application, enhanced with Tailwind CSS, aims to deliver a seamless and personalized workout planning experience. By leveraging the strengths of both technologies, we ensure that users have a powerful tool to help them achieve their fitness goals efficiently and enjoyably.
